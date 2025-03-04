@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
 *,*::before,*::after{
     box-sizing: border-box;
 }
 
 body{
 margin: 0;
-background:linear-gradient(to right,#00AAFF,#00FF6C)
+/* background:linear-gradient(to right,#00AAFF,#00FF6C) */
+background-image:url("./assets/moroccan-flower-dark.png")
 }
 
 .calculator-grid {
@@ -25,7 +27,7 @@ background:linear-gradient(to right,#00AAFF,#00FF6C)
     font-size: 2rem;
     border:1px solid white;
     outline: none;
-    background-color: rgba(255, 255, 255,.75);
+    background-color: rgba(255, 255, 255,.75); 
 }
 
 .span-two{
@@ -52,4 +54,23 @@ background:linear-gradient(to right,#00AAFF,#00FF6C)
 .output .current-operand{
     color: white;
     font-size: 2.5rem;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 4rem
+}
+
+footer{
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    width: 644px;
+    height: 20px;
+    margin: 0 auto
 }
